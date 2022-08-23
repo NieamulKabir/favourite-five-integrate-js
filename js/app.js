@@ -39,7 +39,7 @@ function getInputValueById(inputId) {
 
     return inputAmount
 }
-
+ 
 function getElementValueById(element) {
     const elementField = document.getElementById(element)
     const elementAmount = elementField.innerText
