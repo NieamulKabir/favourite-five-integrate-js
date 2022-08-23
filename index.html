@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favourite Five</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- tailwind css -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-emerald-200">
+
+    <header>
+        <div class="mx-auto text-center">
+            <h1 class="text-5xl font-bold  pt-6 font-mono">Choice Your Best Five</h1>
+            <p class="lg:w-2/4 text-center mx-auto">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+            </p>
+        </div>
+    </header>
+
+
+
+    <main>
+
+        <section class="mt-10 m-10">
+            <div class="card-container mx-auto">
+                <div class="lg:full grid grid-cols-1 lg:grid-cols-3 gap-4  mr-5 ">
+
+                    <div
+                        class="card shadow-2xl shadow-slate-400 bg-base-100 hover:bg-gray-700 hover:text-white transition ease-in-out delay-150  hover:-translate-y-3 duration-300">
+                        <figure><img src="image/player-1.png" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <h2 class="card-title font-bold">Neymar Jr</h2>
+                            <div class="flex font-medium">
+                                <p class="">36 Goals</p>
+
+                                <p>120 Assist</p>
+                            </div>
+                            <div class="card-actions justify-end">
+                                <button class="btn btn-primary" onclick="addToCart(this)">Add Player</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        class="card shadow-2xl shadow-slate-400 bg-base-100 hover:bg-gray-700 hover:text-white transition ease-in-out delay-150  hover:-translate-y-3 duration-300">
+                        <figure><img src="image/player-2.png" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <h2 class="card-title font-bold">Lionel Messi</h2>
+                            <div class="flex font-medium">
+                                <p class="">36 Goals</p>
+
+                                <p>120 Assist</p>
+                            </div>
+                            <div class="card-actions justify-end">
+                                <button class="btn btn-primary" onclick="addToCart(this)">Add Player</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="card shadow-2xl shadow-slate-400 bg-base-100 hover:bg-gray-700 hover:text-white transition ease-in-out delay-150  hover:-translate-y-3 duration-300">
+                        <figure><img src="image/player-3.png" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <h2 class="card-title font-bold">Cristiano Ronaldo</h2>
+                            <div class="flex font-medium">
+                                <p class="">36 Goals</p>
+                                <p>120 Assist</p>
+                            </div>
+                            <div class="card-actions justify-end">
+                                <button class="btn btn-primary" onclick="addToCart(this)">Add Player</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="card shadow-2xl shadow-slate-400 bg-base-100 hover:bg-gray-700 hover:text-white transition ease-in-out delay-150  hover:-translate-y-3 duration-300">
+                        <figure><img src="image/player-4.png" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <h2 class="card-title font-bold">Paulo Dybala</h2>
+                            <div class="flex font-medium">
+                                <p class="">36 Goals</p>
+                                <p>120 Assist</p>
+                            </div>
+                            <div class="card-actions justify-end">
+                                <button class="btn btn-primary" onclick="addToCart(this)">Add Player</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="card shadow-2xl shadow-slate-400 bg-base-100 hover:bg-gray-700 hover:text-white transition ease-in-out delay-150  hover:-translate-y-3 duration-300">
+                        <figure><img src="image/player-5.png" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <h2 class="card-title font-bold">Mesut Ozil</h2>
+                            <div class="flex font-medium">
+                                <p class="">36 Goals</p>
+                                <p>120 Assist</p>
+                            </div>
+                            <div class="card-actions justify-end">
+                                <button class="btn btn-primary" onclick="addToCart(this)">Add Player</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="card shadow-2xl shadow-slate-400 bg-base-100 hover:bg-gray-700 hover:text-white transition ease-in-out delay-150  hover:-translate-y-3 duration-300">
+                        <figure><img src="image/player-9.png" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <h2 class="card-title font-bold">Mohamed Salah</h2>
+                            <div class="flex font-medium">
+                                <p class="">36 Goals</p>
+                                <p>120 Assist</p>
+                            </div>
+                            <div class="card-actions justify-end">
+                                <button class="btn btn-primary" onclick="addToCart(this)">Add Player</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        class="card shadow-2xl shadow-slate-400 bg-base-100 hover:bg-gray-700 hover:text-white transition ease-in-out delay-150  hover:-translate-y-3 duration-300">
+                        <figure><img src="image/player-6.png" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <h2 class="card-title font-bold">Mauro Icardi</h2>
+                            <div class="flex font-medium">
+                                <p class="">36 Goals</p>
+                                <p>120 Assist</p>
+                            </div>
+                            <div class="card-actions justify-end">
+                                <button class="btn btn-primary" onclick="addToCart(this)">Add Player</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="card shadow-2xl shadow-slate-400 bg-base-100 hover:bg-gray-700 hover:text-white transition ease-in-out delay-150  hover:-translate-y-3 duration-300">
+                        <figure><img src="image/player-7.png" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <h2 class="card-title font-bold">Di Maria</h2>
+                            <div class="flex font-medium">
+                                <p class="">36 Goals</p>
+                                <p>120 Assist</p>
+                            </div>
+                            <div class="card-actions justify-end">
+                                <button id="idOfButton" class="btn btn-primary"
+                                    onclick="addToCart(this)">Add Player</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="card shadow-2xl shadow-slate-400 bg-base-100 hover:bg-gray-700 hover:text-white transition ease-in-out delay-150  hover:-translate-y-3 duration-300">
+                        <figure><img src="image/player-8.png" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <h2 class="card-title font-bold">Kylian Mbappé</h2>
+                            <div class="flex font-medium">
+                                <p class="">36 Goals</p>
+                                <p>120 Assist</p>
+                            </div>
+                            <div class="card-actions justify-end">
+                                <button class="btn btn-primary" onclick="addToCart(this)">Add Player</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- calculation cart section  -->
+                <div>
+                    <div class="card bg-base-100 shadow-xl mb-10">
+                        <div class="card-body text-center">
+                            <h2 class="font-bold sm:text-xl lg:text-4xl  text-center">Selected : <span id="total-player"
+                                    class="">0</span> </h2>
+
+                            <ol type="1" id="player-cart">
+
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="card  bg-base-100 shadow-xl mb-10">
+                        <div class="card-body text-center">
+                            <h2 class="font-bold text-4xl text-center">Budget</h2>
+                            <div>
+                                <!-- per player calculate  -->
+                                <div>
+                                    <div class="flex">
+                                        <h1 class="font-medium">Per Player : </h1>
+                                        <input id="per-palyer-input"
+                                            class="border-2 ml-2 px-3  mb-4 flex justify-end  border-gray-500  rounded" type=""
+                                            placeholder="Input a Number value">
+                                    </div>
+
+                                    <button id="calculate-button"
+                                        class="bg-fuchsia-500 font-bold px-4 rounded py-2 text-white">Calculate</button>
+
+                                    <p class="flex justify-start my-2 font-medium">Player Expenses: $ <span
+                                            id="player-expenses"> 00 </span></p>
+                                </div>
+
+                                <div>
+                                    <div>
+                                        <div class="flex">
+                                            <h1 class="font-medium">manager : </h1>
+                                            <input id="manager-input"
+                                                class="border-2 ml-2  mb-4 px-3 border-gray-500  rounded" type=""
+                                                placeholder="Input a Number value">
+                                        </div>
+                                        <div class="flex">
+                                            <h1 class="font-medium">Coach : </h1>
+                                            <input id="coach-input"
+                                                class="border-2 ml-7 mb-4 px-3 border-gray-500  rounded" type=""
+                                                placeholder="Input a Number value">
+                                        </div>
+
+                                        <button id="calculate-total-button"
+                                            class="bg-fuchsia-500 font-bold px-4 rounded py-2 text-white">Calculate
+                                            Total</button>
+
+                                        <p class="flex justify-start my-2 font-bold">Total Amount : $<span id="total">00</span></p>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="/js/app.js"></script>
+    <br>
+
+</body>
+
+</html>
