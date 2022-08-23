@@ -16,7 +16,7 @@
 </head>
 
 <body class="bg-emerald-200">
-
+<!-- header section start  -->
     <header>
         <div class="mx-auto text-center">
             <h1 class="text-5xl font-bold  pt-6 font-mono">Choice Your Best Five</h1>
@@ -25,12 +25,14 @@
             </p>
         </div>
     </header>
-
+<!-- header section end  -->
 
 
     <main>
 
         <section class="mt-10 m-10">
+
+            <!-- player cart section start  -->
             <div class="card-container mx-auto">
                 <div class="lg:full grid grid-cols-1 lg:grid-cols-3 gap-4  mr-5 ">
 
@@ -146,8 +148,8 @@
                                 <p>120 Assist</p>
                             </div>
                             <div class="card-actions justify-end">
-                                <button id="idOfButton" class="btn btn-primary"
-                                    onclick="addToCart(this)">Add Player</button>
+                                <button id="idOfButton" class="btn btn-primary" onclick="addToCart(this)">Add
+                                    Player</button>
                             </div>
                         </div>
                     </div>
@@ -188,8 +190,8 @@
                                     <div class="flex">
                                         <h1 class="font-medium">Per Player : </h1>
                                         <input id="per-palyer-input"
-                                            class="border-2 ml-2 px-3  mb-4 flex justify-end  border-gray-500  rounded" type=""
-                                            placeholder="Input a Number value">
+                                            class="border-2 ml-2 px-3  mb-4 flex justify-end  border-gray-500  rounded"
+                                            type="" placeholder="Input a Number value">
                                     </div>
 
                                     <button id="calculate-button"
@@ -218,7 +220,8 @@
                                             class="bg-fuchsia-500 font-bold px-4 rounded py-2 text-white">Calculate
                                             Total</button>
 
-                                        <p class="flex justify-start my-2 font-bold">Total Amount : $<span id="total">00</span></p>
+                                        <p class="flex justify-start my-2 font-bold">Total Amount : $<span
+                                                id="total">00</span></p>
                                     </div>
                                 </div>
 
